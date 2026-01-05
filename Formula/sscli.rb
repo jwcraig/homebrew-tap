@@ -17,22 +17,22 @@ class Sscli < Formula
   on_macos do
     on_intel do
       url "https://github.com/jwcraig/sql-server-cli/releases/download/v#{version}/sscli-x86_64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_X86_64_DARWIN"
+      sha256 "8a13217bf8eecc289a2bde9a4a0f41b44e4f7cff2aeedcdfe9db5ac296b4bf65"
     end
     on_arm do
       url "https://github.com/jwcraig/sql-server-cli/releases/download/v#{version}/sscli-aarch64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_AARCH64_DARWIN"
+      sha256 "2b00295d8c75d512d2dbc1cd0aa7a3bc685daca710f87d918512c05ea149446f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jwcraig/sql-server-cli/releases/download/v#{version}/sscli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "PLACEHOLDER_X86_64_LINUX"
+      sha256 "5462550a7ee0eebdebaefa6e94d3b78f0108740b36a12e3fe273f50143040420"
     end
     on_arm do
       url "https://github.com/jwcraig/sql-server-cli/releases/download/v#{version}/sscli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "PLACEHOLDER_AARCH64_LINUX"
+      sha256 "0f8373c2f3d6d2a49ec327cd8bb0f1c52a3d5396964b1451d8ebcb36a1113d54"
     end
   end
 
