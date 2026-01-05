@@ -16,23 +16,23 @@ class Sscli < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/jwcraig/sql-server-cli/releases/download/v0.1.2/sscli-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/jwcraig/sql-server-cli/releases/download/v#{version}/sscli-x86_64-apple-darwin.tar.gz"
       sha256 "606dee91b594cf480d9f766c1443ab310eaabb4ba50c143496ac761c9c7e8193"
     end
     on_arm do
       url "https://github.com/jwcraig/sql-server-cli/releases/download/v#{version}/sscli-aarch64-apple-darwin.tar.gz"
-      sha256 "2b00295d8c75d512d2dbc1cd0aa7a3bc685daca710f87d918512c05ea149446f"
+      sha256 "0825de70e3033c7a2a4e223faff8980a4b069396c4a44ee8923c0a2a03198294"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jwcraig/sql-server-cli/releases/download/v#{version}/sscli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5462550a7ee0eebdebaefa6e94d3b78f0108740b36a12e3fe273f50143040420"
+      sha256 "8772d9dec6a49a43d5559d9ed937b14065de88a594e7cbf94815f9dc53007429"
     end
     on_arm do
       url "https://github.com/jwcraig/sql-server-cli/releases/download/v#{version}/sscli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0f8373c2f3d6d2a49ec327cd8bb0f1c52a3d5396964b1451d8ebcb36a1113d54"
+      sha256 "04ace9d874f71002ea3467710d65fc1b34a10f601f32fe3c35a35c9f916919a3"
     end
   end
 
