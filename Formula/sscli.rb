@@ -11,13 +11,13 @@
 class Sscli < Formula
   desc "SQL Server CLI for AI coding agents"
   homepage "https://github.com/jwcraig/sql-server-cli"
-  version "0.1.9"
+  version "0.1.10"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/jwcraig/sql-server-cli/releases/download/v0.1.9/sscli-x86_64-apple-darwin.tar.gz"
-      sha256 "bd952e78119179763989e2ef09160d08dfba85b69b1eea94f5a264b4f9a43d7f"
+      url "https://github.com/jwcraig/sql-server-cli/releases/download/v0.1.10/sscli-x86_64-apple-darwin.tar.gz"
+      sha256 "8edc8487008855a5a301695636c05d150c32ec7b24334b2b322c5f6526d8f407"
     end
     on_arm do
       url "https://github.com/jwcraig/sql-server-cli/releases/download/v#{version}/sscli-aarch64-apple-darwin.tar.gz"
