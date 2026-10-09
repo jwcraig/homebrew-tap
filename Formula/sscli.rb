@@ -11,28 +11,28 @@
 class Sscli < Formula
   desc "SQL Server CLI for AI coding agents"
   homepage "https://github.com/jwcraig/sql-server-cli"
-  version "0.1.16"
+  version "0.1.17"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/jwcraig/sql-server-cli/releases/download/v0.1.16/sscli-x86_64-apple-darwin.tar.gz"
-      sha256 "5ee847b3d7785f88a6e229e6e3aebd8a82fae5044ad6c74b961d21cf65ae24ca"
+      url "https://github.com/jwcraig/sql-server-cli/releases/download/v0.1.17/sscli-x86_64-apple-darwin.tar.gz"
+      sha256 "a828d6c267a89ef41f0a4be78311646e0df154b5a5262ebfeb1136bc60761bc0"
     end
     on_arm do
-      url "https://github.com/jwcraig/sql-server-cli/releases/download/v0.1.16/sscli-aarch64-apple-darwin.tar.gz"
-      sha256 "e8505635749cca7392341a0f118c9aa3a4b43a568bb64f0b925a9d26041d98c5"
+      url "https://github.com/jwcraig/sql-server-cli/releases/download/v0.1.17/sscli-aarch64-apple-darwin.tar.gz"
+      sha256 "d5f05ddd6fbf52d0190620becdd5d9065d1cb66ee7d8fc83da369c6c193011c4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jwcraig/sql-server-cli/releases/download/v0.1.16/sscli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5b6c6ae4853a0bbc138e774e96ca7036c262ba51f16fbaf3a10302e516cffffa"
+      url "https://github.com/jwcraig/sql-server-cli/releases/download/v0.1.17/sscli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e04ce58f63e1679fb9501b77a94cb20ef91f3181679ae16f365d661d0a0e585e"
     end
     on_arm do
-      url "https://github.com/jwcraig/sql-server-cli/releases/download/v0.1.16/sscli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c1eb2aa616cf03edd6aa4d4e9d4d3cfc3e8b4b0d8e6e304e6d6b9e7acbc5677f"
+      url "https://github.com/jwcraig/sql-server-cli/releases/download/v0.1.17/sscli-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ee42beb6f489365c4e2a74159f51b04c3f20df5fc2c666168c589b8073b3f269"
     end
   end
 
